@@ -29,8 +29,8 @@ int main(int argc, char** argv)
 			{
 				cout << "The radius cannot be negative" << endl;
 						
-			exit(1); 												//used to exit when radius is negative, area would continue to show since r is squared.
-			return 1;												//necessary for function to work
+			exit(1); 			//used to exit when radius is negative, area would continue to show since r is squared.
+			return 1;			//necessary for function to work
 			}
 			
 			area = pi * pow(r,2);
